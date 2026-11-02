@@ -3,7 +3,27 @@
 :root{--gold:#e8c98e;--cream:#fff5e4;--navy:#071b36}
 *{box-sizing:border-box}
 body{margin:0;min-height:100vh;color:var(--cream);font-family:'Noto Serif SC',serif;background:#071b36}
-.page{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px;position:relative;overflow:hidden;background:linear-gradient(180deg,rgba(4,16,35,.28),rgba(4,16,35,.83)),var(--bg) center/cover fixed}
+.page{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px 16px;
+  position:relative;
+  overflow:hidden;
+
+  background-color:#071b36;
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(4,16,35,.28),
+      rgba(4,16,35,.83)
+    ),
+    var(--bg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 .card{width:min(100%,620px);padding:34px 28px 30px;border:1px solid rgba(232,201,142,.82);border-radius:22px;background:rgba(5,20,42,.66);box-shadow:0 18px 65px rgba(0,0,0,.35);backdrop-filter:blur(7px);text-align:center}
 .kicker{font:500 11px 'Playfair Display',serif;letter-spacing:.24em;color:var(--gold);text-transform:uppercase}
 h1{font:400 clamp(30px,7vw,48px) 'Noto Serif SC',serif;margin:18px 0 4px;color:#fff2d7}
