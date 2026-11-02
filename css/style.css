@@ -21,7 +21,7 @@ body{margin:0;min-height:100vh;color:var(--cream);font-family:'Noto Serif SC',se
     ),
     var(--bg);
   background-position:center center;
-  background-size:contain;
+  background-size:100% 100%;
   background-repeat:no-repeat;
 }
 .card{width:min(100%,620px);padding:34px 28px 30px;border:1px solid rgba(232,201,142,.82);border-radius:22px;background:rgba(5,20,42,.66);box-shadow:0 18px 65px rgba(0,0,0,.35);backdrop-filter:blur(7px);text-align:center}
